@@ -27,6 +27,18 @@
     
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+   
+    // Log the fonts
+        for (NSString* family in [UIFont familyNames])
+        {
+            NSLog(@"%@", family);
+            
+            for (NSString* name in [UIFont fontNamesForFamilyName: family])
+            {
+                NSLog(@"  %@", name);
+            }
+        }
+    
     
     return YES;
 }

@@ -32,6 +32,13 @@
 		4114C02E1BDB4D1A00455B97 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4114C02D1BDB4D1A00455B97 /* libsqlite3.dylib */; };
 		4114C0301BDB4E5100455B97 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4114C02F1BDB4E5100455B97 /* Bolts.framework */; };
 		4114C0331BDB72F500455B97 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4114C0321BDB72F500455B97 /* SignInViewController.m */; };
+		F16A70371BDBBEBC00AE0DA5 /* MontserratRegular1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16A70361BDBBEBC00AE0DA5 /* MontserratRegular1.ttf */; settings = {ASSET_TAGS = (); }; };
+		F16A70381BDBBEBC00AE0DA5 /* MontserratRegular1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16A70361BDBBEBC00AE0DA5 /* MontserratRegular1.ttf */; settings = {ASSET_TAGS = (); }; };
+		F16A703B1BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A703A1BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.m */; settings = {ASSET_TAGS = (); }; };
+		F16A703C1BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A703A1BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.m */; settings = {ASSET_TAGS = (); }; };
+		F16A703E1BDBC6CE00AE0DA5 /* rohanfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16A703D1BDBC6CE00AE0DA5 /* rohanfont.ttf */; settings = {ASSET_TAGS = (); }; };
+		F16A703F1BDBC6CE00AE0DA5 /* rohanfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16A703D1BDBC6CE00AE0DA5 /* rohanfont.ttf */; settings = {ASSET_TAGS = (); }; };
+		F1B14DF71BDBB69C0012D3F6 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1B14DF61BDBB69C0012D3F6 /* Montserrat-Regular.otf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +85,11 @@
 		4114C02F1BDB4E5100455B97 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		4114C0311BDB72F500455B97 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		4114C0321BDB72F500455B97 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		F16A70361BDBBEBC00AE0DA5 /* MontserratRegular1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MontserratRegular1.ttf; sourceTree = "<group>"; };
+		F16A70391BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LaunchScreen_m.h"; sourceTree = "<group>"; };
+		F16A703A1BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LaunchScreen_m.m"; sourceTree = "<group>"; };
+		F16A703D1BDBC6CE00AE0DA5 /* rohanfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rohanfont.ttf; sourceTree = "<group>"; };
+		F1B14DF61BDBB69C0012D3F6 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +172,8 @@
 				4114C0321BDB72F500455B97 /* SignInViewController.m */,
 				4114BFEE1BDB399700455B97 /* Images.xcassets */,
 				4114BFF01BDB399700455B97 /* LaunchScreen.xib */,
+				F16A70391BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.h */,
+				F16A703A1BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.m */,
 				4114BFE51BDB399700455B97 /* safeWord.xcdatamodeld */,
 				4114BFDE1BDB399700455B97 /* Supporting Files */,
 			);
@@ -169,6 +183,9 @@
 		4114BFDE1BDB399700455B97 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F16A703D1BDBC6CE00AE0DA5 /* rohanfont.ttf */,
+				F16A70361BDBBEBC00AE0DA5 /* MontserratRegular1.ttf */,
+				F1B14DF61BDBB69C0012D3F6 /* Montserrat-Regular.otf */,
 				4114BFDF1BDB399700455B97 /* Info.plist */,
 				4114BFE01BDB399700455B97 /* main.m */,
 			);
@@ -273,8 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4114BFED1BDB399700455B97 /* Main.storyboard in Resources */,
+				F16A70371BDBBEBC00AE0DA5 /* MontserratRegular1.ttf in Resources */,
 				4114BFF21BDB399700455B97 /* LaunchScreen.xib in Resources */,
 				4114BFEF1BDB399700455B97 /* Images.xcassets in Resources */,
+				F16A703E1BDBC6CE00AE0DA5 /* rohanfont.ttf in Resources */,
+				F1B14DF71BDBB69C0012D3F6 /* Montserrat-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +302,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16A703F1BDBC6CE00AE0DA5 /* rohanfont.ttf in Resources */,
+				F16A70381BDBBEBC00AE0DA5 /* MontserratRegular1.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +317,7 @@
 				4114BFE71BDB399700455B97 /* safeWord.xcdatamodeld in Sources */,
 				4114C01A1BDB439E00455B97 /* SWMapView.m in Sources */,
 				4114BFE41BDB399700455B97 /* AppDelegate.m in Sources */,
+				F16A703B1BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.m in Sources */,
 				4114BFEA1BDB399700455B97 /* ViewController.m in Sources */,
 				4114C0331BDB72F500455B97 /* SignInViewController.m in Sources */,
 				4114BFE11BDB399700455B97 /* main.m in Sources */,
@@ -306,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4114BFFE1BDB399700455B97 /* safeWordTests.m in Sources */,
+				F16A703C1BDBC1DF00AE0DA5 /* UIViewController+LaunchScreen_m.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
